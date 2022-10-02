@@ -74,9 +74,14 @@ body{
     background-color: rgb(247, 142, 6);
     color: white;
 }
+.btn a{
+    text-decoration: none;
+    color: inherit;
+}
 .btn button:hover{
     background-color: white;
     color: rgb(247, 142, 6);
+    cursor: pointer;
 }
 .btn button:active{
     background-color: rgb(247, 142, 6);
