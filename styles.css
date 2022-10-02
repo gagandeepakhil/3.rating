@@ -5,11 +5,8 @@ body{
 }
 .total{
     display: flex;
-    flex-direction: column;
     margin: auto;
-}
-.first{
-    height: 30vh;
+    height: 90vh;
 }
 .container{
     display: flex;
@@ -19,7 +16,7 @@ body{
     border-radius: 20px;
     justify-content: space-evenly;
     padding: 10%;
-
+    align-self: center;
 }
 .pic{
     background-color:#262F38;
@@ -41,10 +38,8 @@ body{
 }
 .rate{
     display: flex;
-    max-width: 100%;
     justify-content: space-evenly;
     align-items: center;
-
 }
 .rate button{
     background-color:#262F38;
@@ -86,4 +81,14 @@ body{
 .btn button:active{
     background-color: rgb(247, 142, 6);
     color: white;
+}
+@media screen and (max-width:400px) {
+    .rate button{
+        background-color:#262F38;
+        padding: 1vh;
+        align-items: center;
+        border-width: 0;
+        border-radius: 100%;
+        color: grey;
+    }   
 }
