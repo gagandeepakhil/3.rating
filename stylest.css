@@ -2,15 +2,15 @@ body{
     display: flex;
     justify-content: center;
     background-color: #141519;
+    height: 90vh;
 }
 .total{
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-self: center;
 }
-.first{
-    height: 30vh;
-}
+
 .container{
     display: flex;
     flex-direction: column;
