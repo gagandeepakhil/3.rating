@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #141519;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.first{
+    height: 30vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #212832;
+    max-width: 50vw;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    padding: 10%;
+
+}
+.pic{
+    padding: 1vh;
+    align-items: center;
+    color: grey;
+    max-width: fit-content;
+    align-self: center;
+}
+.sel{
+    align-self: center;
+    background-color:#262F38;
+    color: rgb(247, 142, 6);
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border-radius: 20px;
+}
+.ques{
+    color: white;
+    align-self: center;
+}
+.des{
+    color: #9299A3;
+    max-width: 40vw;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+}

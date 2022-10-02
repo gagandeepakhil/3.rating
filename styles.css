@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #141519;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.first{
+    height: 30vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #212832;
+    max-width: 50vw;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    padding: 10%;
+
+}
+.pic{
+    background-color:#262F38;
+    padding: 1vh;
+    align-items: center;
+    border-width: 0;
+    border-radius: 100%;
+    color: grey;
+    max-width: fit-content;
+}
+.ques{
+    color: white;
+}
+.des{
+    color: #9299A3;
+    max-width: 40vw;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.rate{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.rate button{
+    background-color:#262F38;
+    padding: 2vh;
+    align-items: center;
+    border-width: 0;
+    border-radius: 100%;
+    color: grey;
+}
+.rate button:hover{
+    background-color: rgb(247, 142, 6);
+    cursor: pointer;
+    color: whitesmoke;
+}
+.rate button:focus{
+    background-color: rgb(77, 76, 76);
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.btn button{
+    width: 85%;
+    border-radius: 50px;
+    border-width: 0;
+    background-color: rgb(247, 142, 6);
+    color: white;
+}
+.btn button:hover{
+    background-color: white;
+    color: rgb(247, 142, 6);
+}
+.btn button:active{
+    background-color: rgb(247, 142, 6);
+    color: white;
+}
